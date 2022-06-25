@@ -96,3 +96,21 @@ a {
 .info-text {
     display: block;
 }
+
+
+/* 
+    Works
+*/
+
+.works-lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    padding: 0;
+}
+
+.works-lists li img {
+    width: 24rem;
+    margin-bottom: 2rem;
+}
