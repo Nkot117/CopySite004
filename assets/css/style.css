@@ -25,7 +25,7 @@ a {
 .container {
     width: 96rem;
     padding: 0 4%;
-    margin: 0 auto;
+    margin: 5rem auto;
 }
 
 
@@ -113,4 +113,30 @@ a {
 .works-lists li img {
     width: 24rem;
     margin-bottom: 2rem;
+}
+
+
+/* 
+    News
+*/
+
+.news-list {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid rgb(171, 171, 171);
+}
+
+.news-date {
+    border-bottom: 1px solid rgb(171, 171, 171);
+    width: 20%;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+}
+
+.news-text {
+    margin: 0;
+    width: 80%;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(171, 171, 171);
 }
