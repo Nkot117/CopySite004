@@ -140,3 +140,63 @@ a {
     padding: 1.5rem;
     border-bottom: 1px solid rgb(171, 171, 171);
 }
+
+
+/* 
+    Contact
+*/
+
+.form-table {
+    width: 100%;
+}
+
+.form-table th {
+    width: 10%;
+    vertical-align: top;
+    text-align: left;
+}
+
+.form-label {
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.form-table td {
+    width: 90%;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: rgb(198, 195, 195) 1px solid;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.button {
+    background-color: #333;
+    color: white;
+    padding: 1.6rem 10rem;
+    border: 0;
+}
+
+label,
+button {
+    cursor: pointer;
+}
+
+
+/* 
+    Footer
+*/
+
+.footer {
+    background-color: #333;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
