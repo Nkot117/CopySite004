@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+label,
+button {
+    cursor: pointer;
+}
+
 .container {
     width: 96rem;
     padding: 0 4%;
@@ -110,9 +115,14 @@ a {
     padding: 0;
 }
 
-.works-lists li img {
-    width: 24rem;
+.list-item {
+    width: 30%;
     margin-bottom: 2rem;
+    overflow: unset;
+}
+
+.list-item img {
+    width: 100%;
 }
 
 
@@ -173,20 +183,22 @@ a {
     border: rgb(198, 195, 195) 1px solid;
 }
 
-.form-button {
+.form {
     text-align: center;
 }
 
-.button {
+.form-button {
     background-color: #333;
     color: white;
     padding: 1.6rem 10rem;
     border: 0;
+    transition: background-color 0.3s;
 }
 
-label,
-button {
-    cursor: pointer;
+.form-button:hover {
+    background-color: white;
+    color: #333;
+    border: 1px #333 solid;
 }
 
 
